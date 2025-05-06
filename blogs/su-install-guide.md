@@ -1,4 +1,6 @@
-# A Beginner's Guide to Installing Seismic Unix on Windows with WSL
+# How to Install Seismic Unix on WSL Like a Boss
+
+> A Beginner's Guide to Installing Seismic Unix on Windows with WSL
 
 Seismic Unix (SU) is a powerful open-source seismic data processing package widely used in geophysics. In this guide, I'll walk you through installing SU on Windows using WSL (Windows Subsystem for Linux), making the process accessible even for beginners.
 
@@ -203,13 +205,6 @@ If a window appears showing seismic traces, congratulations! You've successfully
 
 - **Permission issues?** Try running the problematic commands with `sudo`.
 
-## Using Seismic Unix
-
-Now that you have Seismic Unix installed, here are some basic commands to get started:
-
-- `suplane | suximage`: Generate a test dataset and display it as a color image
-- `suplane | suxwigb`: Generate a test dataset and display it as wiggles
-- `sukeyword -o`: List all SU commands
 
 ## Conclusion
 
