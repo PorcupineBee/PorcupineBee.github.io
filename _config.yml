@@ -11,7 +11,7 @@ twitter_username: Shabion2 # Optional: Your Twitter username
 github_username: PorcupineBee  # Optional: Your GitHub username
 
 # Theme settings
-theme: jekyll-theme-basically-basic
+theme: jekyll-theme-cayman
 
 # Build settings
 markdown: kramdown
