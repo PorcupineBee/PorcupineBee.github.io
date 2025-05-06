@@ -59,13 +59,13 @@ Open your Ubuntu WSL terminal and run these commands one by one:
 ```bash
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get install -y build-essential
-sudo apt-get install -y gfortran
-sudo apt install -y libx11-dev
-sudo apt install -y libxt-dev
-sudo apt install -y libxmu-dev libxi-dev
-sudo apt install -y libc6
-sudo apt install -y gedit
+sudo apt-get install build-essential -y
+sudo apt-get install gfortran -y
+sudo apt install libx11-dev -y
+sudo apt install libxt-dev -y
+sudo apt install libxmu-dev libxi-dev -y
+sudo apt install libc6 -y
+sudo apt install gedit -y
 ```
 
 These packages provide:
@@ -178,9 +178,12 @@ make install
 ```
 
 During installation, you'll be asked some questions:
-- Do you want to use the software? → Type `y`
-- Do you want to install the package? → Type `y`
-- Do you want to install non-standard code? → Type `n`
+respond to prompts with 
+```
+y 
+y 
+n
+```
 
 After the main installation completes:
 ```bash
@@ -193,9 +196,6 @@ make xtinstall
 Let's test if everything is working properly:
 
 ```bash
-# Set the DISPLAY variable for X server
-export DISPLAY=:0
-
 # Run a simple test
 suplane | suxwigbe
 ```
