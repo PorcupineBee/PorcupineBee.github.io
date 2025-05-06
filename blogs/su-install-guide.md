@@ -1,10 +1,3 @@
----
-title: How to Install Seismic Unix on WSL
-description: A step-by-step guide to installing Seismic Unix on Ubuntu WSL
-date: 2025-05-06
-tags: [seismic unix, SU, seismic, wsl, XLaunch, Xming, X server, linux, tutorial, Ubuntu, Ubuntu 20.04]
-layout: default
----
 # How to Install Seismic Unix on WSL Like a Boss
 
 > A Beginner's Guide to Installing Seismic Unix on Windows with WSL
