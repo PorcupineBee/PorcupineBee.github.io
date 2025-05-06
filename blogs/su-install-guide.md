@@ -220,3 +220,5 @@ You now have a fully functioning Seismic Unix installation on your Windows compu
 For more information on using Seismic Unix, consult the official documentation or explore the example scripts included in the package.
 
 Happy processing!
+
+💬 [Leave a comment on GitHub](https://github.com/PorcupineBee/PorcupineBee.github.io/issues/1)
