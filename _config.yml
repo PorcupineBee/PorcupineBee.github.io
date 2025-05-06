@@ -1,5 +1,37 @@
-title: PorcupineBee Blog
+
+# Site settings
+title: PorcupineBee Blog  # Replace with your blog title
 description: Some blogs extremely related to Geophysics 
 author: Shanu Biswas
 keywords: [linux, wsl, seismic unix, tutorials, tech blog]
+email: shabionpp2.0@gmail.com # Replace with your email
+baseurl: "" # The subpath of your site, e.g., /blog
+url: "https://PorcupineBee.github.io" # The base hostname & protocol for your site
+twitter_username: Shabion2 # Optional: Your Twitter username
+github_username: PorcupineBee  # Optional: Your GitHub username
+
+# Theme settings
 theme: jekyll-theme-basically-basic
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Other options (optional)
+# permalink: pretty
+# paginate: 10
+# ... other Jekyll configurations ...
