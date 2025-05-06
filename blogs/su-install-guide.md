@@ -3,7 +3,6 @@ title: How to Install Seismic Unix on WSL Like a Boss
 description: A step-by-step guide to installing Seismic Unix on Ubuntu WSL
 date: 2025-05-06
 tags: [seismic unix, SU, seismic, wsl, XLaunch, Xming, X server, linux, tutorial, Ubuntu, Ubuntu 20.04]
-layout: post
 ---
 Seismic Unix (SU) is a powerful open-source seismic data processing package widely used in geophysics. In this guide, I'll walk you through installing SU on Windows using WSL (Windows Subsystem for Linux), making the process accessible even for beginners.
 
