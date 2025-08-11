@@ -14,6 +14,7 @@ Here you'll find blogposts, tutorials, and digital rants that may or may not cha
 ## 📚 Blog Posts
 
 - 🛠️ [How to Install Seismic Unix on WSL Like a Boss](./blogs/su-install-guide.md)
+- 🐲 [Visualization of Spherical harmonics with Legendre Polynomials](https://porcupinebee.github.io/legendre-polynomial/)
 - 🐧 More posts coming soon... once my code stops segfaulting!
 
 ---
