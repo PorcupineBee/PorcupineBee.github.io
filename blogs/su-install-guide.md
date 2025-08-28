@@ -33,7 +33,7 @@ To display graphical interfaces from WSL, we need an X server:
 4. Follow these configuration steps:
    - Select "Multiple windows" → Click "Next"
    - Select "Start no client" → Click "Next"
-   - Check "No Access Control" 
+   - Check "No Access Control"
    - Enter additional parameters: `-ac -1`
    - Click "Next" → Click "Finish"
 
@@ -43,9 +43,11 @@ Xming is now running in the background, ready to display graphics from your WSL 
 
 Let's get the Seismic Unix package:
 
-1. Download the SU package from [https://nextcloud.seismic-unix.org/index.php/s/LZpzc8jMzbWG9BZ](https://nextcloud.seismic-unix.org/index.php/s/LZpzc8jMzbWG9BZ)
+1. Download the SU package from [https://nextcloud.seismic-unix.org/index.php/s/LZpzc8jMzbWG9BZ](https://nextcloud.seismic-unix.org/index.php/s/LZpzc8jMzbWG9BZ)**
 2. Choose version `cwp_su_all_44R26.tgz` (recommended for stability)
 3. Note where the file downloads (typically your Windows Downloads folder)
+
+** The site is down now, you can download the `cwp_su_all_44R26.tgz` file from my [this](https://github.com/PorcupineBee/PorcupineBee.github.io/tree/main/data) git repository
 
 ## 4. Install Essential Packages in WSL
 
@@ -136,7 +138,7 @@ cd ~/cwp/src
 sudo chmod uog+rw /home/yourusername/cwp/src
 
 # Find the right configuration file
-cd config
+cd configs
 ls
 ```
 
@@ -149,7 +151,7 @@ mv Makefile.config_Linux_Ubuntu_20.04 Makefile.config
 # Return to src directory and replace the default config
 cd ..
 rm Makefile.config
-mv config/Makefile.config .
+mv configs/Makefile.config .
 
 # Edit the configuration file
 gedit Makefile.config
@@ -194,7 +196,7 @@ Let's test if everything is working properly:
 
 ```bash
 # Run a simple test
-suplane | suxwigbe
+suplane | suxwigb
 ```
 
 If a window appears showing seismic traces, congratulations! You've successfully installed Seismic Unix.
